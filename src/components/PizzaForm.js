@@ -1,7 +1,7 @@
 import React from "react"
 
 const PizzaForm = () => {
-  return(
+  return (
       <div className="form-row">
         <div className="col-5">
             <input type="text" className="form-control" placeholder="Pizza Topping" value={
