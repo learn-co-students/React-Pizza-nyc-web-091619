@@ -2,21 +2,21 @@
   "pizzas": [
     {
       "id": 1,
-      "topping": "Plain",
-      "size": "Small",
+      "topping": "Plain Halal",
+      "size": "Medium",
       "vegetarian": true
     },
     {
       "id": 2,
-      "topping": "Pepperoni",
-      "size": "Medium",
+      "topping": "Halal Pepperoni",
+      "size": "Large",
       "vegetarian": false
     },
     {
       "id": 3,
-      "topping": "Mushroom",
-      "size": "Small",
-      "vegetarian": true
+      "topping": "Mushroom and Cottage Cheese and Halal Pepperoni",
+      "size": "Large",
+      "vegetarian": false
     },
     {
       "id": 4,

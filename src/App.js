@@ -44,7 +44,13 @@ class App extends Component {
         vegetarian: this.state.radioOption === "Vegetarian" ? true : false
       })
     }).then(res => res.json()).then(pizza => this.setState({
-        pizzas: this.state.pizzas.find()
+        pizzas: this.state.pizzas.map(statePizza => {
+          if (statePizza.id === pizza.id) {
+            return pizza
+          } else {
+            return statePizza
+          }
+        })
       }))
   }
 
